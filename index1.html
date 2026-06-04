@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mini E-Commerce</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>My Shop 🛒</h1>
+    <nav>
+      <a href="index1.html">Home</a>
+      <a href="cart1.html">Cart</a>
+      <a href="login1.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="products">
+
+    <div class="card">
+      <img src="mobile.jpg" alt="Mobile">
+      <h3>Smartphone</h3>
+      <p>Latest Android Phone</p>
+      <h4>₹15,000</h4>
+      <button onclick="addToCart('Smartphone',15000)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="laptop.jpg" alt="Laptop">
+      <h3>Laptop</h3>
+      <p>High performance laptop</p>
+      <h4>₹55,000</h4>
+      <button onclick="addToCart('Laptop',55000)">Add to Cart</button>
+    </div>
+
+    <div class="card">
+      <img src="headphones.jpg" alt="Headphones">
+      <h3>Headphones</h3>
+      <p>Noise cancelling</p>
+      <h4>₹2,000</h4>
+      <button onclick="addToCart('Headphones',2000)">Add to Cart</button>
+    </div>
+
+  </section>
+
+  <script src="script1.js"></script>
+</body>
+</html>

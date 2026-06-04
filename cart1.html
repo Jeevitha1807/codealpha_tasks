@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+  <h1>Your Cart 🛒</h1>
+
+  <div id="cartItems"></div>
+
+  <h2 id="total"></h2>
+
+  <button onclick="clearCart()">Clear Cart</button>
+
+  <script src="script1.js"></script>
+
+  <script>
+    window.onload = function () {
+      displayCart();
+      getTotal();
+    }
+  </script>
+
+</body>
+</html>
